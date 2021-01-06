@@ -18,4 +18,4 @@ RUN wget https://github.com/Hypfer/squeezelite-downloads/raw/master/squeezelite-
 
 RUN chmod a+x squeezelite-armv6hf
 
-CMD /squeezelite-armv6hf -o $SOUNDDEVICE -s $SERVER -n $CLIENTNAME -m $CLIENTMAC
+CMD /squeezelite-armv6hf -o $SOUNDDEVICE -s $SERVER -n $CLIENTNAME -m $CLIENTMAC -f $LOG
